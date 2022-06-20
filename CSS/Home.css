@@ -1,0 +1,227 @@
+@font-face {
+    font-family: bebas;
+    src: url('../Fonts/bebas/Bebas-Regular.ttf');
+}
+@font-face {
+    font-family: century-regular;
+    src: url('../Fonts/Century_Gothic_Font_Family/Century\ Gothic\ 400.ttf');
+}
+@font-face {
+    font-family: century-bold;
+    src: url('../Fonts/Century_Gothic_Font_Family/911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body{
+    margin: 1vw;
+    margin-top: -1.5vw;
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    height: 8vw;
+    z-index: 2;
+}
+.logo{
+    height: 5vw;
+    margin-left: 0.2vw;
+    margin-right: 2vw;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    padding-top: 1.2vw;
+    padding-bottom: 1.38vw;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    margin-left: 12vw;
+    margin-right: 10vw;
+    margin-bottom: 0;
+    z-index: 2;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+    font-family: bebas;
+    margin-left: -10vw;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.trailer-wrap{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+video{
+    position: relative;
+    width: auto;
+    height: 40vw;
+    top: 0;
+}
+.synopsis-wrap{
+    display: flex;
+    height: 50vw;
+    margin-top: 0;
+    padding-top: 0;
+}
+.left-wrap{
+    width: 60%;
+}
+.title{
+    width: 30vw;
+    padding-top: 2.5vw;
+}
+.desc1{
+    display:flex;
+    font-family: century-bold;
+    font-size: 1.2vw;
+    color: white;
+    justify-content: space-evenly;
+    margin-left: -7.2vw;
+    margin-bottom: 2vw;
+}
+.rate{
+    margin-left: -7vw;
+}
+.star{
+    width: 1.5vw;
+}
+.red{
+    color: red;
+}
+.desc2{
+    font-family: century-bold;
+    font-size: 1.2vw;
+    color: white;
+    margin-bottom: 2vw;
+    margin-left: 0.5vw;
+}
+.synopsis-title{
+    font-family: century-bold;
+    font-size: 1.2vw;
+    color: white;
+    margin-bottom: 1vw;
+    margin-left: 0.5vw;
+}
+.synopsis-text{
+    font-family: century-regular;
+    font-size: 1vw;
+    color: white;
+    margin-bottom: 2vw;
+    margin-left: 0.5vw;
+}
+.right-wrap{
+    width: 40%;
+}
+.poster{
+    width: 85%;
+    margin-left: 2vw;
+    border: 1vw;
+    border-color: white;
+    padding-top: 2.5vw;
+}
+.cast-wrap{
+    display: flex;
+    height: 40vw;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    align-items: center;
+}
+.section-title{
+    font-family: bebas;
+    font-size: 4vw;
+    justify-content: center;
+    margin-bottom: 4vw;
+    padding-top: 3vw;
+}
+.card-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 2vw;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    width: 70%;
+}
+.name{
+    font-size: 1.2vw;
+    font-family: century-bold;
+    align-items: center;
+    margin-right: 4vw;
+}
+.felix{
+    margin-left: 2.5vw;
+}
+.role{
+    font-size: 1vw;
+    font-family: century-regular;
+}
+.abby{
+    margin-left: 4vw;
+}
+.lady{
+    margin-left: 5vw;
+}
+.rhey{
+    margin-left: 0.7vw;
+}
+.diaz{
+    margin-left: 3vw;
+}
+.felixrole{
+    margin-right: 4vw;
+}
+.watch{
+    color: white;
+    font-family: bebas;
+    font-size: 3vw;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    border-width: 0.4vw;
+    border-color: white;
+    margin-top: 2vw;
+    cursor:pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1vw;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-foot{
+    width: 10vw;
+}
+.foot{
+    color: white;
+    font-family: century-regular;
+    font-size: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}

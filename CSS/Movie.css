@@ -1,0 +1,88 @@
+@font-face {
+    font-family: bebas;
+    src: url('../Fonts/bebas/Bebas-Regular.ttf');
+}
+@font-face {
+    font-family: century-regular;
+    src: url('../Fonts/Century_Gothic_Font_Family/Century\ Gothic\ 400.ttf');
+}
+@font-face {
+    font-family: century-bold;
+    src: url('../Fonts/Century_Gothic_Font_Family/911Fonts.com_CenturyGothicBold__-_911fonts.com_fonts_pMgo.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body{
+    margin: 1vw;
+    margin-top: -1.5vw;
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    height: 8vw;
+    z-index: 2;
+}
+.logo{
+    height: 5vw;
+    margin-left: 0.2vw;
+    margin-right: 2vw;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    padding-top: 1.2vw;
+    padding-bottom: 1.38vw;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    margin-left: 12vw;
+    margin-right: 10vw;
+    margin-bottom: 0;
+    z-index: 2;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+    font-family: bebas;
+    margin-left: -10vw;
+}
+.movie-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+video{
+    position: relative;
+    width: auto;
+    height: 35vw;
+    top: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1vw;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-foot{
+    width: 10vw;
+}
+.foot{
+    color: white;
+    font-family: century-regular;
+    font-size: 1vw;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
